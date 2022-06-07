@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:ital,wght@0,500;1,400&display=swap');
+body
+{
+  font-family: 'Montserrat', sans-serif;
+}
+
+h2{
+  font-family: 'Kaushan Script', cursive;
+  font-size:3rem;
+  line-height: 1.5;
+  color:white;
+}
+.tag{
+  color:white;
+}
+h3
+{
+  font-weight: bold;
+}
+ /* Hedader Section */
+
+#header
+{
+  background-color:#ff4c68;
+  padding-bottom: 250px;
+}
+.logo{
+  height:50px;
+}
+.container-fluid
+{
+  padding: 3% 15%;
+}
+.navbar{
+  padding-bottom: 20px;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0;
+}
+.navbar-brand
+{
+  font-family: ubuntu;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.nav-item
+{
+  padding-left: 15px;
+  padding-right:15px;
+}
+.navlink
+{
+  font-size: 1.5rem;
+}
+.dwdbtn
+{
+  margin-top: 16px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.header-Img
+{
+  width: 60%;
+  position: absolute;
+}
+/* Feature Section */
+
+.f
+{
+  color: #ff4c68;
+  padding: 20px;
+  margin:10px;
+
+}
+.f:hover
+{
+  color: red;
+}
+#features
+{
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+.c4
+{
+  text-align: center;
+}
+
+/* Testimonials Section */
+
+.test
+{
+text-align: center;
+padding:2% 10% 5%;
+}
+.testh
+{
+  color: #323232;
+  font-family: Montserrat;
+  font-size: 2em;
+  text-align: center;
+}
+#testimonials
+{
+  background-color: #FFEDDB;
+}
+.Img-testimonials
+{
+  border-radius: 100%;
+  padding-top: 16px;
+  padding-bottom: 10px;
+  display: block;
+ margin: auto;
+ width: 19%;
+}
+em
+{
+margin: 20px;
+font-weight: bold;
+}
+
+/* Press Section */
+#Press
+{
+  background-color: #EB5E0B;
+}
+.p
+{
+  padding: 10% 1%;
+  text-align: center;
+}
+.p1
+{
+  width: 15%;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.p2
+{
+  width: 15%;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.p3
+{
+  width: 15%;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.p4
+{
+  width: 15%;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/* Price-section */
+#pricing
+{
+  background-color: #ffff;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+.bg-green
+{
+  background-color: #27AE60;
+}
+.Button1
+{
+  border:3px solid #27AE60;
+}
+.Button1:hover
+{
+  background-color: #27AE60;
+  color:#fff;
+}
+.bg-red{
+  background-color:  #C0392B;
+}
+.Button2
+{
+  border:3px solid #C0392B;
+}
+.Button2:hover
+{
+  background-color: #C0392B;
+  color:#fff;
+}
+.bg-blue{
+  background-color: #2980B9;
+}
+.Button3
+{
+  border:3px solid #2980B9;
+}
+.Button3:hover
+{
+  background-color: #2980B9;
+  color:#fff;
+}
+@media (max-width:1270px) {
+  .header-Img{
+    position: absolute;
+    margin:20px;
+    width:40%;
+  }
+
+}
+/* For Download */
+#download
+{
+  text-align: center;
+  background-color: #ff4c68;
+  padding-bottom: 120px;
+}
+.dwnd
+{
+  padding:50px;
+  color: #ffff;
+}
+.dwnAA
+{
+  margin-top: 16px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+ /* For footer */
+ #footer
+ {
+   text-align: center;
+   background-color: #ffff;
+   padding:50px;
+ }
+.i
+{
+  margin-top:10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+@media only screen and (max-width: 992px) {
+  .header-Img{
+    position: absolute;
+    margin:20px;
+    width:30%;
+  }
+}
+@media only screen and (max-width: 430px) {
+  .header-Img{
+    position: absolute;
+    margin:20px;
+    width:40%;
+  }
+}
